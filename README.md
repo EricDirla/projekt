@@ -11,8 +11,7 @@ npm run serve
 ```
 
 ### Startup Projekt dist
-- unzip ```dist.zip```
-- through cmd, go to dist folder
+-change to dist folder through cmd
 ```npm run serve```
 
 ### Main Dependencies
