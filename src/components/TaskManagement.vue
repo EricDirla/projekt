@@ -2,7 +2,6 @@
   <v-container>
     <v-row justify="center">
       <v-col cols="12" md="8">
-        <!-- Task creation form -->
         <v-card class="pa-4">
           <v-card-title>
             <h2>Create Task</h2>
@@ -26,7 +25,6 @@
           </v-form>
         </v-card>
         
-        <!-- Task list -->
         <v-card class="pa-4">
           <v-card-title>
             <h1>Task List</h1>
@@ -90,7 +88,7 @@
             dueDate: "",
             isCompleted: false
           };
-          this.retrieveTasks(); // Refresh the task list after creation
+          this.retrieveTasks();
         } catch (error) {
           console.error("Error creating task:", error);
         }
@@ -103,6 +101,5 @@
   </script>
   
   <style>
-  /* Your component styles go here */
   </style>
   

@@ -1,6 +1,5 @@
 <template>
   <v-container>
-    <!-- Add margin-top to h1 element -->
     <h1 class="mb-4 mt-4">Impressum</h1>
     <v-divider class="mb-4"></v-divider>
 
@@ -21,5 +20,4 @@ export default {
 </script>
 
 <style scoped>
-/* Add your custom styles here */
 </style>

@@ -2,7 +2,7 @@ import http from "./http-common";
 
 class UserService {
   getAll() {
-    return http.get("/user/all");  // Ensure this matches your endpoint
+    return http.get("/user/all");
   }
 
   get(id) {
@@ -11,7 +11,6 @@ class UserService {
 
  async create(data) {
     try {
-      // Check if the username already exists
       const existingUser = await this.getUserByUsername(data.username);
       if (existingUser) {
         throw new Error("Username already exists.");
@@ -37,7 +36,6 @@ class UserService {
 
   update(id, name, password) {
     return http.put(`/user/update?user_id=${id}&username=${name}&password=${password}`)
-    //return http.put(`/user/${id}`, data);
   }
 
   delete(id) {

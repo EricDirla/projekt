@@ -2,7 +2,6 @@
   <v-container>
     <v-row justify="center">
       <v-col cols="12" md="8">
-        <!-- Task list -->
         <v-card class="pa-4">
           <v-card-title>
             <h1>Task List</h1>

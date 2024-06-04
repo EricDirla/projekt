@@ -27,6 +27,6 @@ export default {
 
 <style scoped>
 .content {
-  margin-top: 20px; /* Add a margin of 20px below the v-app-bar */
+  margin-top: 20px;
 }
 </style>

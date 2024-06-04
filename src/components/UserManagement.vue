@@ -2,7 +2,6 @@
   <v-container>
     <v-row justify="center">
       <v-col cols="12" md="8">
-        <!-- User creation form -->
         <v-card class="pa-4 mb-4">
           <v-card-title>
             <h2>Create User</h2>
@@ -28,7 +27,6 @@
           </v-card-text>
         </v-card>
 
-        <!-- User list -->
         <v-card class="pa-4">
           <v-card-title>
             <h2>User List</h2>
@@ -81,12 +79,11 @@
           console.log("User created:", response.data);
           this.newUser.name = "";
           this.newUser.password = "";
-          this.retrieveUsers(); // Refresh the user list after creation
+          this.retrieveUsers();
         } catch (error) {
           console.error("Error creating user:", error);
         }
       }
-      // Add methods for updating and deleting users if needed
     }
   };
   </script>
