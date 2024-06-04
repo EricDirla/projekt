@@ -14,7 +14,7 @@ class TaskService {
   }
 
   update(id, taskName, description, dueDate, isCompleted) {
-    return http.put(`task/update?user_id=${id}&task_name=${taskName}&description=${description}&due_date=${dueDate}&is_completed=${isCompleted}&task_id=0`);
+    return http.put(`task/update?user_id=${id}&task_name=${taskName}&description=${description}&due_date=${dueDate}&is_completed=${isCompleted}&task_id=${id}`);
   }
 
   delete(TaskId) {
