@@ -10,15 +10,13 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Startup Projekt dist
+- unzip ```dist.zip```
+- through cmd, go to dist folder
+```npm run serve```
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Main Dependencies
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+-vue
+-vuetify
+-axios
