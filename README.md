@@ -11,11 +11,16 @@ npm run serve
 ```
 
 ### Startup Projekt dist
--change to dist folder through cmd
+-change to dist folder through cmd <br>
 ```npm run serve```
 
 ### Main Dependencies
 
--vue
--vuetify
--axios
+-vue <br>
+-vuetify <br>
+-axios <br>
+-date-fns <br>
+-vue-router <br>
+-eslint <br>
+-babel <br>
+-vue-cli <br>
