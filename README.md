@@ -14,3 +14,9 @@ npm run serve
 - unzip ```dist.zip```
 - through cmd, go to dist folder
 ```npm run serve```
+
+### Main Dependencies
+
+-vue
+-vuetify
+-axios
